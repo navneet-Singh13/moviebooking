@@ -12,7 +12,7 @@ class UI {
             singleButton.addEventListener('click' , function(){
                 
                 if ( singleButton.style.backgroundColor == 'blue'){ 
-                    singleButton.style.backgroundColor = 'black' ;
+                    singleButton.style.backgroundColor = 'violet' ;
                 }
                 else if ( singleButton.classList.contains('booked')){ 
                      

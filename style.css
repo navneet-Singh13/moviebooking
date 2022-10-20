@@ -1,8 +1,12 @@
 body { 
     padding: 10px ;
-    background-color: rgb(72, 20, 122);
+    background-color: rgb(0, 0, 0);
 
     color : white ; 
+}
+*{
+    font-family: 'Murecho', sans-serif;
+    font-weight: bold;
 }
 .btn { 
     background-color: white ;
@@ -13,7 +17,7 @@ body {
     width: 100%;
     background-color: whitesmoke;
     text-align: center;
-    font-size: 70px ;
+    font-size: 50px ;
     font-weight: bold;
     color:black ; 
     height: 100px ;
@@ -28,7 +32,7 @@ body {
     width : 600px ; 
     height: 700px ;
 } 
-.movies  { 
+.movies{ 
     height: 800px ;
     width: 800px ;
     margin-left: auto;
@@ -42,7 +46,7 @@ body {
     #carouselExampleControls{ 
         
         padding:10px ; 
-        width:500px 
+        width:100% ; 
 
      }
      #screen { 
@@ -51,10 +55,14 @@ body {
       
      
      #navbar { 
-        margin-left: 55px ;
+       width:100%; 
+       
      }
     
-     
+     .movies{ 
+        height: 800px;
+        width: auto; 
+     }
      
 }
 #youhave { 
@@ -64,7 +72,7 @@ body {
  }
 .btn { 
 
-    background-color: black;
+    background-color: violet;
     transition :hover  1000ms ; 
     height: 50px ;
     margin: 5px ;
@@ -81,12 +89,13 @@ body {
     margin-right: auto;
     background-color: rgba(255, 255, 255, 0.676) ; 
     height: 250px ;
-    width: 500px ; 
+    width: 100% ; 
     box-shadow: 10px 20px 30px white ; 
     transition : background-color 1200ms  ; 
     border-radius: 10px ;
     text-align: center ;
     font-size: 50px ;
+    color:black ; 
 }
 #screen:hover { 
     background-color: white ;
@@ -94,7 +103,7 @@ body {
  }
 #seats{
     margin-top: 50px ;
-    display: block;
+   
     
     
      
@@ -130,7 +139,8 @@ body {
 
 }
 #vacant { 
-    background-color: black;
+    background-color: violet;
+    border-style: none;
 
 }
 #booked { 
@@ -154,8 +164,8 @@ body {
 
 }
 #select { 
-    font-size: 40px ;
-    padding : 10px ; 
+    font-size: 25px ;
+    
    
 }
 #sle{ 
@@ -163,16 +173,19 @@ body {
 }
 #ali { 
     display: block;
-    margin-left:100px ;
+    padding: 40px;
      
 }
 #time { 
     padding:10px ; 
     font-size: 30px ;
+    
 
 }
 #times{ 
-    font-size: 30px ;
+    padding: 5px;
+    border-radius: 20px ;
+    font-size: 20px ;
 }
 #seatNumber,#amount,#mymovie{ 
     padding: 10px ;
@@ -180,6 +193,7 @@ body {
 #mymovie { 
     font-size: 30px ;
     background-color: black;
+    width:100% ; 
 }
 #pay { 
     font-size: 30px ;
@@ -190,3 +204,15 @@ body {
      border: none;
 }
  
+#pno { 
+    text-align:center ; 
+    
+}
+#mymovie,#pay { 
+    background-color: rgb(58, 58, 58);
+}
+#navbar { 
+    
+    color:whitesmoke ; 
+    background-color: black;
+}
