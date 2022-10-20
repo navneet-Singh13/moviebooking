@@ -66,15 +66,15 @@ checkbtn.addEventListener('click' ,function ( ) {
     movies [ i ].addEventListener('click' , function ( ) { 
         if ( i == 0 ) { 
             movieName.innerHTML = "Doctor G" ; 
-            dp.innerHTML = "Doctor G" ; 
+            dp.innerHTML = "Doctor G  (Rs.125)" ; 
         }
         else if ( i ==1 ) { 
             movieName.innerHTML = "Darlings" ;
-            dp.innerHTML = "Darlings" ;  
+            dp.innerHTML = "Darlings  (Rs.125)" ;  
         }
         else { 
             movieName.innerHTML = "Babe Bhangra Paunde ne " ; 
-            dp.innerHTML = "Babe Bhangra Paunde ne " ; 
+            dp.innerHTML = "Babe Bhangra Paunde ne  (Rs.125)" ; 
         }
     })
 }
